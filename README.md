@@ -1,0 +1,3 @@
+# Unhandled Errors in Express.js POST Route
+
+This repository demonstrates a common error in Express.js applications: insufficient error handling in request processing.  The `bug.js` file shows a vulnerable POST route that lacks essential error checks, making it susceptible to crashes if the request body is malformed or missing critical data. The `bugSolution.js` file shows how to implement comprehensive error handling to address this vulnerability and improve the application's robustness.
